@@ -12,8 +12,8 @@ public class Main { // 2-D Array
 
     public static int ex2(int[][] arr) {
         int count = 0;
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length; j++) {
+        for (int i=0; i<arr.length; i++) {
+            for (int j=0; j<arr[i].length; j++) {
                 if (help2(arr[i][j]))
                     count++;
             }
@@ -29,8 +29,8 @@ public class Main { // 2-D Array
     }
 
     public static boolean ex8(int[][] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length-1; j++) {
+        for (int i=0; i<arr.length; i++) {
+            for (int j=0; j<arr[i].length-1; j++) {
                 if (!(arr[i][j] < arr[i][j+1]))
                     return false;
             }
@@ -51,8 +51,8 @@ public class Main { // 2-D Array
 
     public static int place(int[][] arr, int x) {
         int count = 0;
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length; j++) {
+        for (int i=0; i<arr.length; i++) {
+            for (int j=0; j<arr[i].length; j++) {
                 if (arr[i][j] != x) {
                     count++;
                 } else {
