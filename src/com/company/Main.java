@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main { // 2-D Array
 
     public static boolean help2(int num) {
         if (num/1000 == 0 && num/100 > 0)
